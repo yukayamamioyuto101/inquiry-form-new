@@ -55,5 +55,6 @@
 
  ##ER図　　
  
- <img width="875" height="653" alt="image" src="https://github.com/user-attachments/assets/0afbf61c-3bb1-42e6-bf7a-247cb9e49378" />　　
+ <img width="875" height="653" alt="image" src="https://github.com/user-attachments/assets/1f795f73-97c1-45f6-a5fd-c02f3d4707a9" />
+
 
