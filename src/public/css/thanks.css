@@ -1,0 +1,51 @@
+.main-container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* 横方向に中央揃え */
+    align-items: center;
+    /* 縦方向に中央揃え */
+    height: 100vh;
+}
+
+.main-container-inner {
+    text-align: center;
+    /* 内部のテキストも中央揃え */
+    padding: 20px;
+}
+
+.thanks-content {
+    text-align: center;
+    font-size: 25px;
+    color: #6b4e3d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.thanks-action {
+    display: flex;
+    justify-content: center;
+    /* 横方向に中央揃え */
+    align-items: center;
+    /* 縦方向に中央揃え */
+    }
+
+.thanks-action a{
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color:#8b6b53;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color:#6b4e3d;
+}

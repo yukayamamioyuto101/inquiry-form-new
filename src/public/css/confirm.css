@@ -1,0 +1,177 @@
+html,
+body {
+    margin: 0;
+    /* デフォルトの余白を消す */
+    padding: 0;
+    /* デフォルトの余白を消す */
+    height: 100%;
+    /* 高さを確保 */
+    width: 100%;
+    /* 幅を確保 */
+}
+
+.confirm-header {
+    background-color: #fff;
+}
+
+.confirm-header-inner {
+    max-width: 1230px;
+    display: flex;
+    justify-content: center;
+    /* 子要素を横中央 横方向中央 */
+    align-items: center;
+    /* 子要素を横中央 縦方向中央 */
+    margin: 0 auto;
+    /* .confirm-header-inner 自身を親の中で横中央 */
+    padding: 20px 10px;
+    position: relative;
+}
+
+.confirm-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6b4e3d;
+    margin: 0;
+}
+
+.confirm-subtitle {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* 確認テーブル全体 */
+/* メインコンテナ */
+.main-container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.confirm-table {
+    padding: 10px 20px;
+}
+
+/* テーブル */
+.confirm-table__inner {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+}
+
+.confirm-table__inner th,
+.confirm-table__inner td {
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+/* 見出しセル */
+.confirm-table__inner th {
+    width: 30%;
+    text-align: left;
+    font-weight: 700;
+    color: #6b4e3d;
+    background-color: #f5f0ea;
+    border-radius: 4px 0 0 4px;
+}
+
+/* 値セル */
+.confirm-table__inner td {
+    background-color: #faf9f6;
+    border-radius: 0 4px 4px 0;
+}
+
+.name-group {
+    display: flex;
+    /* 横並びにする */
+    align-items: center;
+    /* 垂直方向の中央揃え */
+}
+
+.first_name,
+.last_name {
+    width: auto;
+    /* 入力ボックスの幅を自動にする */
+    min-width: 2ch;
+    padding: 5px;
+    /* 余白の調整 */
+    border: 1px solid #ccc;
+    /* 枠線 */
+    font-size: 16px;
+    /* フォントサイズ調整 */
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #333;
+    resize: none;
+    font-family: inherit;
+}
+
+/* 入力フィールド */
+.confirm-table__inner input[readonly]:not(.first_name):not(.last_name),
+.confirm-table__inner textarea[readonly] {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #333;
+    resize: none;
+    font-family: inherit;
+}
+
+/* ファーストネームの後に1文字分のスペースを追加 */
+
+
+/* テキストエリア高さ調整 */
+.confirm-table__inner textarea {
+    min-height: 100px;
+    padding: 6px 10px;
+}
+
+/* ボタンエリア */
+.form__button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* 送信ボタン */
+.form__button-submit-store {
+    background-color: #6b4e3d;
+    color: white;
+    padding: 12px 40px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form__button-submit-store:hover {
+    background-color: #8b6b53;
+}
+
+/* 修正ボタン（リンク） */
+.form__button-submit-edit {
+    display: inline-block;
+    padding: 12px 40px;
+    font-size: 17px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid #6b4e3d;
+    color: #6b4e3d;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.form__button-submit-edit:hover {
+    background-color: #6b4e3d;
+    color: white;
+}
+
+
